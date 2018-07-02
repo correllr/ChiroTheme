@@ -1,3 +1,25 @@
 #chiropractic-quote {
-	padding: 20px 0px;
+	padding: 50px 0px;
+}
+
+#chiropractic-about-background {
+	background: $darkgreen;
+	display:flex;
+	flex-wrap: wrap;
+}
+
+.chiropractic-about--block {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.chiropractic-about--text {
+	width: 70%;
+	margin: auto;
+}
+
+.chiropractic-about--image {
+	width: 25%;
+	margin: auto;
 }

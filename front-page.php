@@ -19,7 +19,7 @@
 		Meet Our Team
 	</h1>
 	<div id="frontteam-block">
-		<img class="frontteam-img" src="http://www.quiropracticopromover.es/wp-content/uploads/2017/04/Robert-Correll-3.jpg" alt="Name" width=250 height=true />
+		<img class="frontteam-img" src="http://localhost/chirotheme/wp-content/uploads/2018/07/Robert-Correll-3-2-e1530553483509.jpg" alt="Name" width=250 height=true />
 		<span id="frontteam-text">
 			<h2 class="frontteam-name">	Robert Correll, MChiro
 			</h2>
