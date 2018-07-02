@@ -1,7 +1,7 @@
 </div><!-- container -->
 <div class="site-footer">
 <!-- Example widget area -->
-	<div id="footer-sidebar" class="secondary">
+	<div id="footer-sidebar" class="secondary itemcont">
 		<div id="footer-sidebar1" class="widgetspace">
 		<?php
 		if(is_active_sidebar('footer-sidebar-1')){
@@ -29,7 +29,7 @@
 <!-- Example Widget Area END -->
 
 	<div class="copyright">
-		&copy; <?php echo date('Y');?> <?php bloginfo('name'); ?>
+		&copy; <?php echo date('Y');?> <?php bloginfo('name'); ?>, R Correll
 	</div>
 </div>
 

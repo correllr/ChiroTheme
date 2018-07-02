@@ -8,6 +8,7 @@ function ChiroTheme_resources() {
 	
 	
 	wp_enqueue_script('jquery');
+	wp_enqueue_script('script', get_template_directory_uri() . '/js/script.js');
 
 }
 

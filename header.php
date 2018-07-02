@@ -9,6 +9,7 @@
 			<?php wp_head(); ?>
 			
 	<!---------- FONTS ---------->	
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 		
 		
 	</head>
@@ -26,20 +27,20 @@
 		<a id="hero--cta" class="btn" href="#">CTA HERE</a>
 	</div>
 	
-	<div id="logosection">
 		<div id="logo">
 			<img src="http://www.quiropracticopromover.es/wp-content/uploads/2017/04/QUIROPRACTICO-PROMOVER-1.jpg" alt="logo" width="250px">
 		</div>
-		
-		<div id="header-menu"><?php
-			$args = array(
-			'theme_location' => 'primary'
-			);
-		?>
-		<?php wp_nav_menu( $args ); ?>	
+
+		<div id="header-menu">
+			<?php
+				$args = array(
+				'theme_location' => 'primary'
+				);
+			?>
+			<?php wp_nav_menu( $args ); ?>	
 		</div>
-	</div>
 	
+	<?php get_template_part('contact'); ?>
 	
 	
 	</header>
